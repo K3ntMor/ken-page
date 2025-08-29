@@ -8,7 +8,7 @@ export default function Perfil() {
 
 
 
-      <div className="position-relative d-grid d-xxl-flex col-xxl-5 ">
+      <div className="position-relative d-grid d-xxl-flex col-xxl-9 ">
         <SpotlightCard
           className="custom-spotlight-card"
           spotlightColor="rgba(118, 155, 211, 0.2)"
@@ -23,8 +23,8 @@ export default function Perfil() {
             </span>
           </p>
           <p className="lead">
-            Soy Desarrollador <strong>Full Stack</strong> y{" "}
-            <strong data-start="185" data-end="201">
+            Mi nombre es <strong className="text-primary">Kenny Morales</strong>, soy desarrollador <strong>Full Stack</strong> y{" "}
+            <strong>
               Consultor IT
             </strong>{" "}
             con experiencia en el diseño y desarrollo de soluciones
@@ -35,45 +35,20 @@ export default function Perfil() {
             escalables y seguras.
           </p>
         </SpotlightCard>   
+
+         <DotLottieReact
+          src="https://lottie.host/5d5ad63c-2168-4069-8b35-dc2b064f58bf/kAa3Jxmygq.lottie"
+          loop
+          autoplay
+        />
              
       </div>
 
       
-      <div className="position-relative d-grid gap-5 d-md-flex justify-content-end col-xxl-4  ">
-
-        <div className="col-xxl-10 ">
-        <SpotlightCard
-          className="custom-spotlight-card"
-          spotlightColor="rgba(118, 155, 211, 0.2)"
-        >
-          <p>
-            <span
-              lang="es"
-              dir="ltr"
-              className="display-6 fw-bold text-body-emphasis lh-1 mb-3"
-            >
-              Sobre Mí
-            </span>
-          </p>
-          <p className="lead">
-            Soy Desarrollador <strong>Full Stack</strong> y{" "}
-            <strong data-start="185" data-end="201">
-              Consultor IT
-            </strong>{" "}
-            con experiencia en el diseño y desarrollo de soluciones
-            tecnológicas.
-            <br></br>
-            Me apasiona convertir ideas en software funcional y ayudar a
-            empresas a superar retos tecnológicos con soluciones innovadoras,
-            escalables y seguras.
-          </p>
-        </SpotlightCard>   
-             </div>
-      </div>
-
-      <div
+      
+{/*       <div
         className="col-md-5 position-absolute"
-        style={{ right: 450, padding: 30 }}
+        style={{ left: -95, padding: 0 }}
       >
         <DotLottieReact
           src="https://lottie.host/b93599f1-00c0-4733-bb5e-7c1501ac462d/3P4Jb9vCuM.lottie"
@@ -81,7 +56,7 @@ export default function Perfil() {
           autoplay
         />
         
-      </div>
+      </div> */}
     </div>
     
   );

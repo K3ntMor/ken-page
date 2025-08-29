@@ -128,7 +128,7 @@ function Headercomp() {
               >
                 <use xlinkHref="#bootstrap"></use>
               </svg>{" "}
-              <span className="fs-4">Kenny Morales</span>{" "}
+              <span className="fs-4">KM</span>{" "}
             </a>
             <ul className="nav nav-pills">
               <li className="nav-item">

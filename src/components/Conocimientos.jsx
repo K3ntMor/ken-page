@@ -39,7 +39,7 @@ function Conocimientos() {
 <div style={{ height: '100px', width: '100%', position: 'static', overflow: 'hidden', padding: 20, }}>
       <LogoLoop
         logos={techLogos}
-        speed={80}
+        speed={30}
         direction="left"
         logoHeight={50}
         gap={40}
