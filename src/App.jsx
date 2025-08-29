@@ -5,6 +5,7 @@ import './App.css'
 import Headercomp  from './components/Headercomp'
 import Conocimientos from './components/Conocimientos'
 import Perfil from './components/Perfil'
+import Servicios from './components/Servicios'
 
 
 
@@ -19,9 +20,8 @@ function App() {
 
     <Headercomp />
     <Conocimientos /> 
-   
-
     <Perfil/>
+    <Servicios/>
 
     </>
   )

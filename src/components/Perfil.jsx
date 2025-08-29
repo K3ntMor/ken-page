@@ -24,7 +24,7 @@ export default function Perfil() {
           </p>
           <p className="lead">
             Mi nombre es <strong className="text-primary">Kenny Morales</strong>, soy desarrollador <strong>Full Stack</strong> y{" "}
-            <strong>
+            <strong >
               Consultor IT
             </strong>{" "}
             con experiencia en el diseño y desarrollo de soluciones
