@@ -4,11 +4,15 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function Perfil() {
   return (
-    <div className=" d-flex flex-wrap px-5 py-5 gap-5 col-xxl-12 justify-content-center">
+    
+    
+      
+    
+    <div className=" container px-5 py-5 gap-5 justify-content-center">
 
 
-
-      <div className="position-relative d-grid d-xxl-flex col-xxl-9 ">
+      <div className="row">
+      <div className=" col-md-6 col-xxl-6 ">
         <SpotlightCard
           className="custom-spotlight-card"
           spotlightColor="rgba(118, 155, 211, 0.2)"
@@ -35,13 +39,15 @@ export default function Perfil() {
             escalables y seguras.
           </p>
         </SpotlightCard>   
-
+       
+      </div>
+       <div className=" col-md-6 col-xxl-6">
          <DotLottieReact
           src="https://lottie.host/5d5ad63c-2168-4069-8b35-dc2b064f58bf/kAa3Jxmygq.lottie"
           loop
           autoplay
         />
-             
+             </div>
       </div>
 
       

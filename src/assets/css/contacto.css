@@ -1,0 +1,14 @@
+.contacto-card{
+    
+  /*     width: 200px;
+      height: 120px; */
+      background-color: #1c1f22;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;      
+      cursor: pointer;
+}
+ 
